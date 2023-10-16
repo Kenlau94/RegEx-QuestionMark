@@ -103,3 +103,11 @@ Up in coming full stack web developer
 GitHub https://github.com/Kenlau94
 
 Repo https://github.com/Kenlau94/RegEx-QuestionMark
+
+## Useful sources
+
+regex email https://www.youtube.com/watch?v=QxjAOSUQjP0
+
+gist intro https://www.youtube.com/watch?v=aCdKx__VabQ
+
+regex intro https://www.youtube.com/watch?v=7DG3kCDx53c
