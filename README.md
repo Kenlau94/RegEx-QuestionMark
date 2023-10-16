@@ -1,12 +1,10 @@
-# Regex Tutorial Starter Code
-
 # RegEx Simplified
 
-RegeEx stands for regular expression, which is a sequence of characters that defines a specific search pattern. Using code and algorithms to find certain patterns such as phone numbers, HTML tags, ect. and in todays example an email.
+Regex stands for regular expression, which is a sequence of characters that defines a specific search pattern. It uses code and algorithms to find certain patterns, such as phone numbers, HTML tags, etc. In today's example, we will focus on finding email addresses.
 
 ## Summary
 
-Today I will be explaining this pile of code here ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ What type of tomfoolery is this!? Up unitl today I had no idea, but hopefully I can simplify things a bit to give you a better understanding.
+Today I will be explaining this pile of code here: ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$. What type of tomfoolery is this?! Up until today, I had no idea, but hopefully, I can simplify things a bit to give you a better understanding.
 
 ## Table of Contents
 
@@ -28,11 +26,11 @@ Today I will be explaining this pile of code here ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.
 
 ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
 
-In this code snippet, the ^ and the $ are acting as anchors. What that means is that the ^ is the start point telling the program where to start and the $ is the marker telling you where to stop. The symbols aren't used as symbols to search for but as a signal to start and stop, such as the start line and the finish line of a race.
+In this code snippet, the ^ and the $ are acting as anchors. What that means is that the ^ is the starting point, telling the program where to begin, and the $ is the marker indicating where to stop. These symbols aren't used as characters to search for, but rather as signals to start and stop, similar to the start line and the finish line of a race.
 
 ### Quantifiers
 
-Quantifiers specify how many instances of a charecter or groups of charecters are expected. Pretty much sets rules and limits for what the string can and cannot have. The + in the regex signifies "one or more", meaning there is set rule that now there has to be on or more lowercase, uppercase, number or symbol in the email address. The {2,} part of the regex matches two or more occurrences of letters in the top level domain (TLD).
+Quantifiers specify how many instances of a character or groups of characters are expected. They essentially set rules and limits for what the string can and cannot have. The + in the regex signifies 'one or more', indicating that there must be one or more lowercase, uppercase, number, or symbol in the email address. The {2,} part of the regex matches two or more occurrences of letters in the top-level domain (TLD).
 
 ### OR Operator
 
@@ -106,8 +104,12 @@ Repo https://github.com/Kenlau94/RegEx-QuestionMark
 
 ## Useful sources
 
-regex email https://www.youtube.com/watch?v=QxjAOSUQjP0
+Regex Email https://www.youtube.com/watch?v=QxjAOSUQjP0
 
-gist intro https://www.youtube.com/watch?v=aCdKx__VabQ
+Gist Intro https://www.youtube.com/watch?v=aCdKx__VabQ
 
-regex intro https://www.youtube.com/watch?v=7DG3kCDx53c
+Regex Intro https://www.youtube.com/watch?v=7DG3kCDx53c
+
+Regex Intro PT2 https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
+
+![image](https://user-images.githubusercontent.com/134185724/275365427-030da588-62d3-4ce6-9864-c154dce76ae4.png)
